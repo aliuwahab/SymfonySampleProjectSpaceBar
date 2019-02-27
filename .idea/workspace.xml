@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f9c879c-467f-41e8-ae6f-c7e0f7864925" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/ArticleController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/the_spacebar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/the_spacebar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +36,7 @@
           <entry key="gitignore" value="1" />
           <entry key="json" value="2" />
           <entry key="php" value="2" />
-          <entry key="yaml" value="1" />
+          <entry key="yaml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -49,7 +45,7 @@
           <entry key="JSON" value="2" />
           <entry key="PHP" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="YAML" value="1" />
+          <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions">
@@ -78,11 +74,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="48">
+              <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -91,16 +87,16 @@
         <entry file="file://$PROJECT_DIR$/config/routes.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-start-column="1" selection-end-line="2" selection-end-column="59" />
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/ArticleController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="48">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#124#183#0#PHP" expanded="true" />
               </folding>
@@ -167,6 +163,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
       <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
       <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -197,6 +194,12 @@
               <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
               <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
@@ -246,12 +249,12 @@
       <updated>1551179041043</updated>
       <workItem from="1551179042557" duration="1102000" />
       <workItem from="1551180447965" duration="66000" />
-      <workItem from="1551180529999" duration="1518000" />
+      <workItem from="1551180529999" duration="1711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2686000" />
+    <option name="totallyTimeSpent" value="2879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="84" y="23" width="1218" height="830" extended-state="0" />
@@ -305,27 +308,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-start-column="1" selection-end-line="2" selection-end-column="59" />
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/ArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="48">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#124#183#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/security_checker.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
