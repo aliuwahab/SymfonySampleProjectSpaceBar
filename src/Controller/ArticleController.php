@@ -10,9 +10,10 @@ namespace App\Controller;
 
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 
-class ArticleController
+class ArticleController extends AbstractController
 {
     /**
      * @Route("/")
@@ -26,7 +27,17 @@ class ArticleController
      */
     public function show($slug)
     {
-        return new Response('Future page to show '. $slug);
+        $comments = [
+            'This is comment one',
+            'This is comment two',
+            'This is comment three',
+            'This is comment four',
+            'This is comment five',
+        ];
+        return $this->render('articles/show.html.twig', [
+           'title' => ucwords(str_replace('-', ' ', $slug)),
+            'comments' => $comments
+        ]);
     }
 
 

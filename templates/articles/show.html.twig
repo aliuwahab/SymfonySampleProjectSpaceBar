@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+{% block title %} Read {{ title }} {% endblock %}
+{% block body %}
+<h1>{{ title }}</h1>
+
+<p>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+</p>
+
+<h3>Section for Comments ({{ comments| length }})</h3>
+
+<ul>
+    {% for comment in comments %}
+        <li>{{ comment }}</li>
+    {% endfor %}
+</ul>
+
+
+{% endblock %}
